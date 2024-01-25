@@ -35,36 +35,38 @@
     <header>
         <!-- navbar -->
         <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 gap-44px">
-                 
-                  <li>Home</li> 
-                  <li>About</li>
-                  <li>pages</li>
-                  <li>Blog</li>
-                  <li>Contact</li>
-                </ul>
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
-              <a class="btn btn-ghost text-xl">Hockey’s</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 gap-44px">
-                <li>Home</li> 
-                  <li>About</li>
-                  <li>pages</li>
-                  <li>Blog</li>
-                  <li>Contact</li>
-            
+              <ul tabindex="0" class="menu gap-4 menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li>Home</li>
+                 <li>About</li>
+                <li>Pages</li>
+                <li>Blog</li>
+                <li>Contact</li>
               </ul>
             </div>
-            <div class="navbar-end ">
-              <a class="btn text-white bg-hockey">Get Ticket</a>
-            </div>
-          </div>  
+            <a class="btn btn-ghost text-xl">Hockey’s</a>
+          </div>
+          <div class="navbar-center hidden gap-4 lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>Home</li>
+              <li>About</li>
+             <li>Pages</li>
+             <li>Blog</li>
+             <li>Contact</li>
+           
+            </ul>
+          </div>
+          <div class="navbar-end flex flex-1 gap-4">
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M1 8C1 8.91925 1.18106 9.82951 1.53284 10.6788C1.88463 11.5281 2.40024 12.2997 3.05025 12.9497C3.70026 13.5998 4.47194 14.1154 5.32122 14.4672C6.1705 14.8189 7.08075 15 8 15C8.91925 15 9.82951 14.8189 10.6788 14.4672C11.5281 14.1154 12.2997 13.5998 12.9497 12.9497C13.5998 12.2997 14.1154 11.5281 14.4672 10.6788C14.8189 9.82951 15 8.91925 15 8C15 7.08075 14.8189 6.1705 14.4672 5.32122C14.1154 4.47194 13.5998 3.70026 12.9497 3.05025C12.2997 2.40024 11.5281 1.88463 10.6788 1.53284C9.82951 1.18106 8.91925 1 8 1C7.08075 1 6.1705 1.18106 5.32122 1.53284C4.47194 1.88463 3.70026 2.40024 3.05025 3.05025C2.40024 3.70026 1.88463 4.47194 1.53284 5.32122C1.18106 6.1705 1 7.08075 1 8Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></div>
+            <a class="btn btn-error">Button</a>
+          </div>
+        </div> 
           
     <!-- carousel -->
     <div class="carousel w-full gap-44px">
@@ -107,26 +109,26 @@
         </div>
     
         <!-- loading -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-4" >
         <div class="text-center">
-          <div class="radial-progress" style="--value:70;" role="progressbar">87%</div>
+          <div class="radial-progress text-[red]" style="--value:87;" role="progressbar">87%</div>
           <h1 class="text-2xl font-extrabold mb-5 ">prayer facility
           </h1>
             <p > They play hockey games in front of audiences.</p>
          </div>
-        <div>
-          <div class="radial-progress" style="--value:70;" role="progressbar">95%</div>
+        <div class="text-center">
+          <div class="radial-progress text-[]" style="--value:95;" role="progressbar">95%</div>
           <h1 class="text-2xl font-extrabold mb-5">Experienced Coach
           </h1>
             <p> They play hockey games in front of audiences.</p>
           </div>
-        <div>
-          <div class="radial-progress" style="--value:70;" role="progressbar">90%</div>
+        <div class="text-center">
+          <div class="radial-progress text-[]" style="--value:90;" role="progressbar">90%</div>
           <h1 class="text-2xl font-extrabold mb-5">Senior Player
           </h1>
             <p> They play hockey games in front of audiences.</p>
           </div>
-        <div>
+        <div class="text-center">
           <div class="radial-progress" style="--value:70;" role="progressbar">80%</div>
           <h1 class="text-2xl font-extrabold mb-5">Training Ground
           </h1>
@@ -139,38 +141,61 @@
         <h1 class="text-2xl font-extrabold mb-5">Program Sections</h1>
         <p>Professional athletes in hockey play for professional teams</p>
     </div>
+      <!-- register now -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        
+          <div class="hero col-span-1 " style="background-image: url(Images/2.png);">
+            <div class="hero  "></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
+                <button class="btn bg-[#FF4240]">Register Now</button>
+              </div>
+            </div>
+          </div>
 
-    <section>
+          <div class="hero col-span-1" style="background-image: url(Images/3.png);">
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
+                <button class="btn bg-[#FF4240]">Register Now</button>
+              </div>
+            </div>
+          </div>
+        
+          <div class="hero col-span-2 h-[338px]" style="background-image: url(Images/4.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
+                <button class="btn bg-[#FF4240]">Register Now</button>
+              </div>
+            </div>
+          </div>
+
+       
+
+        
+   
+
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        <!-- new products -->
+ <!-- new products -->
         <div class=" gap-44px my-24 text-center">
             <h1 class="text-2xl font-extrabold mb-5">Our New Products</h1>
             <p>Professional athletes in hockey play for professional teams</p>
         </div>
 
-        <section class="flex bg-white-500">
+        <section class="flex bg-white-500 ">
           
           <div class="Grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <!-- cart1 -->
-               <div class="card card-side  ">
+               <div class="card card-side ">
             <figure><img src="Images/5.png" alt="Movie"/></figure>
             <div class="card-body">
                 <!--icons  -->
@@ -638,28 +663,87 @@
     </div>
     <!-- get in touch banner -->
     <section>
-      <aside>
-        <!-- phone -->
-        <div class="w-52 h-45">
+ 
+
+      <!-- input box -->
+    
+      <div class="hero  mr-700 ">
+        <div class="hero-content  flex-row ">
+          <div class="flex-col  gap-44 ">
+                 <!-- phone -->
+        <div class="w-52  h-45 p-10 bg-green-50">
           <img src="Images/Group 1171275317.png" alt="">
           <h1>Phone Number : 
            <br> (+62) 123-321-543</h1>
         </div>
         <!-- email -->
-        <div>
+        <div class="w-52  h-45 p-10 mt-4 bg-[#FDDD5F1A]">
           <img src="Images/Group 1171275318.png" alt="">
           <h1>Email : 
            <br> hockeys@support.com</h1>
         </div>
         <!-- location -->
-        <div>
+        <div class="w-52  h-45 p-10 mt-4 bg-[#629CF31A]">
           <img src="Images/Group 1171275321.png" alt="">
           <h1>Location : 
           <br>  152/1 Mohakhali Wireless Gate</h1>
         </div>
-      </aside>
+      </div>
+       
+          <div class="card shrink-0 w-[1440px] max-w-sm  ">
+            <form class="card-body">
+              <div class="flex">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Your name</span>
+                </label>
+                <input type="email" placeholder="Enter your name" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label ">
+                  <span class="label-text">Your Email</span>
+                </label>
+                <input type="email" placeholder="Enter your Email" class="input input-bordered" required />
+              </div>
+              </div>
 
-      <!-- input box -->
+              <div class="flex">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Subject</span>
+
+                </label>
+                <input type="email" placeholder="Enter your Subject"  class="input input-bordered" required/>
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">phone Number</span>
+
+                </label>
+                <input type="email" placeholder="Enter your Number"  class="input input-bordered" required/>
+              </div>
+            </div>
+
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">message</span>
+
+              </label>
+              <input type="email" placeholder="write your message"  class="input input-bordered w-[572px] h-[370px]" required/>
+            </div>
+
+
+
+
+
+              <div class="form-control mt-6 w-[572px]">
+                <button class="btn text-white bg-[#FF4240] ">send message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    
       
       
 
@@ -677,7 +761,7 @@
 
 
     
-    <div class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <div class="footer footer-center mt-10 ml-7 mr-7  p-10 bg-base-200 text-base-content rounded">
         <nav class="grid grid-flow-col gap-2">
           social media
         </nav> 
@@ -691,7 +775,7 @@
     </div>
         
     </main>
-    <footer class="footer p-10 text-base-content gap-4 bg-accent-content text-white">
+    <footer class="footer mt-10 p-10 text-base-content gap-4 bg-accent-content text-white">
         <aside>
           <p>Get In Touch</p>
           <p> If you are, keep, or stay in touch with them, you write,<br> phone, or visit each other regularly.</p>
